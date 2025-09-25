@@ -22,7 +22,7 @@ class ProfileView extends StatelessWidget {
                 ),
                 ElevatedButton(
                   onPressed: () {
-                    viewModel.CountedValue();
+                    viewModel.addCounterValueFun();
                   },
                   child: Text("Count"),
                 ),
