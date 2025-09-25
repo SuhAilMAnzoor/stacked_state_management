@@ -24,7 +24,7 @@ class HomeView extends StatelessWidget {
                 SizedBox(height: 30),
                 ElevatedButton(
                   onPressed: () {
-                    viewModel.CountedValue();
+                    viewModel.addCounterValueFun();
                   },
                   child: Text("Count"),
                 ),
